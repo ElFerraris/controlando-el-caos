@@ -12,6 +12,7 @@ public class Calculadora {
 		System.out.println("=== Calculadora Básica ===");
         int a = 10;
         int b = 5;
+    
 		double porcentaje;
 		
         System.out.println("Suma: " + (a + b));
@@ -22,5 +23,7 @@ public class Calculadora {
    		porcentaje = ((double) a / b) * 100;
         System.out.println("Porcentaje de a respecto a b: " + porcentaje + "%");
 		
+		System.out.println("Final Calculadora");
 	}
 }
+// Creando la rama potencia
